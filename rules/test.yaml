@@ -10,10 +10,9 @@ crée cette année:
 Exonéré CFE:
   une de ces conditions:
     - crée cette année
-    - une de ces conditions:
-      - toutes ces conditions:
-        - est défini: CA annuel HT N-2
-        - CA annuel HT N-2 < 5000€
-      - toutes ces conditions:
-        - est défini: CA annuel HT N-1
-        - CA annuel HT N-1 < 5000€
+    - toutes ces conditions:
+      - est défini: CA annuel HT N-2
+      - CA annuel HT N-2 < 5000€
+    - toutes ces conditions:
+      - est défini: CA annuel HT N-1
+      - CA annuel HT N-1 < 5000€
