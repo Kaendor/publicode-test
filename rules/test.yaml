@@ -4,15 +4,17 @@ année courante:
 CA annuel HT N-2: 
 CA annuel HT N-1: 
 
-crée cette année:
+Seuil CA: 5000€
+
+Crée cette année:
   année création = année courante
 
 Exonéré CFE:
   une de ces conditions:
-    - crée cette année
+    - Crée cette année
     - toutes ces conditions:
       - est défini: CA annuel HT N-2
-      - CA annuel HT N-2 < 5000€
+      - CA annuel HT N-2 < Seuil CA
     - toutes ces conditions:
       - est défini: CA annuel HT N-1
-      - CA annuel HT N-1 < 5000€
+      - CA annuel HT N-1 < Seuil CA
