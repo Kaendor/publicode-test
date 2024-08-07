@@ -1,32 +1,26 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "target": "ES2023",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "outDir": "dist",
-    "incremental": false,
+    "incremental": true,
     "allowJs": true,
     "checkJs": false,
     "declaration": false,
-    "sourceMap": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
-    "noImplicitAny": false,
     "skipLibCheck": true,
     "lib": [
-      "ES2020",
-      "ES2022.Error"
+      "ES2023",
     ]
   },
   "include": [
     "src/**/*",
-    "types/**/*"
+    "main.ts"
   ],
   "exclude": [
     "node_modules/"
   ],
-  "ts-node": {
-    "swc": true
-  }
 }

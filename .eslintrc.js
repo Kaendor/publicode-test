@@ -5,20 +5,6 @@ export default {
     NodeJS: true,
   },
   rules: {
-    "import/no-unresolved": ["error", { ignore: ["@georges-tech/accounting"] }],
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        devDependencies: [
-          "**/test/**/*.js",
-          "**/test/**/*.ts",
-          "**/src/**/*.test.js",
-          "**/src/**/*.test.ts",
-          "**/migrations/**/*.test.js",
-          "scripts/**/*.js",
-        ],
-      },
-    ],
     "import/named": "error",
     "no-restricted-globals": 0,
     "no-restricted-syntax": 0,
