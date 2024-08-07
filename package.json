@@ -1,0 +1,20 @@
+{
+  "name": "publicode-test",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@publicodes/tools": "^1.2.5",
+    "publicodes": "^1.5.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.5"
+  }
+}
